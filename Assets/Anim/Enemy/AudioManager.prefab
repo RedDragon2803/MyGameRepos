@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2233629173637813863
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2233629173637813861}
+  - component: {fileID: 2233629173637813860}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2233629173637813861
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2233629173637813863}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2233629173637813860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2233629173637813863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f8cee9f4ae5e1940a8f2788e082b4dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: PlayerRun
+    clip: {fileID: 8300000, guid: bf81f77875cb0bd4a9fa497d63f4a9b8, type: 3}
+    loop: 1
+    volume: 0.445
+    pitch: 1.2
+    source: {fileID: 0}
+  - name: slash
+    clip: {fileID: 8300000, guid: 615cbb55ee7b3b54b81b2d6e6393e1f5, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: slash2
+    clip: {fileID: 8300000, guid: 7a5553cf460d8ee428189379fcc64c08, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1
+    source: {fileID: 0}
+  - name: slash3
+    clip: {fileID: 8300000, guid: 30bd3012891ae894c9db945cef646ded, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 0.66
+    source: {fileID: 0}
+  - name: enemy1Run
+    clip: {fileID: 8300000, guid: 555fc5e346f904443adab756fd455f62, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 0.69
+    source: {fileID: 0}
+  - name: SwordHit
+    clip: {fileID: 8300000, guid: 3eb1782d0e7709441b5e6e7546ebfc22, type: 3}
+    loop: 0
+    volume: 1
+    pitch: 1.01
+    source: {fileID: 0}
